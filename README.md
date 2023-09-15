@@ -11,22 +11,14 @@
 - [QBLA](#Quý Bảo Loan Am)
   - [Table of contents](#table-of-contents)
   - [Getting started](#getting-started)
-    - [Prerequisites](#prerequisites)
     - [Installation](#installation)
+    - [My Team - Quy Nguyen Team](#myteam)
 
 ---
 
 ## Getting started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-### Prerequisites
-
-What things you need to install the software and how to install them :
-
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/)
-- [Docker](https://docs.docker.com/docker-for-windows/install/) or [Docker Toolbox](https://github.com/docker/toolbox/releases)
 
 ---
 
@@ -110,7 +102,10 @@ For more configuration options and details, see the [configuration docs](https:/
    npm i
    ```
 
+### My-Team
+
 4. My Team
-<p align="center">
-  <a href="https://www.facebook.com/photo/?fbid=312341211469328&set=gm.293427953413897&idorvanity=2683" target="blank"><img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t39.30808-6/376751831_312341271469322_7818924761080602256_n.jpg?stp=dst-jpg_p526x296&_nc_cat=108&ccb=1-7&_nc_sid=4c1e7d&_nc_ohc=cDOqg1F68lwAX9u4llJ&_nc_ht=scontent.fdad2-1.fna&oh=00_AfDy11dwGS11E2qlcLWTFewBs9eCJtZxR0IqIETckttmSQ&oe=6508840E" height="60" alt="Team logo" /></a>
+
+<p align="center"></p>
+ <img src="https://github.com/quynguyen20-07/Images/blob/main/373408021_266314379665464_286649943086962708_n.jpg?raw=true" height="300"  width="" alt="Team logo" /> 
 </p>
