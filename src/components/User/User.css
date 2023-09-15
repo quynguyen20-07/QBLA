@@ -1,0 +1,47 @@
+.user-grid {
+  margin: 24px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 24px;
+}
+.user-item {
+  height: 135px;
+  width: 250px;
+  display: flex;
+  border: 1px solid #888;
+  border-radius: 15px;
+  align-items: center;
+}
+
+.info-card {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+}
+.title {
+  font-size: 16;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+  margin-right: 12px;
+}
+.value {
+  font-size: 14;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+  color: #888;
+}
+.img-card {
+  margin-left: 18px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+.img-card img {
+  width: 100%;
+  object-fit: cover;
+}
