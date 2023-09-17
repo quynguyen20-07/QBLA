@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "books": [1, 2, 3]
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "books": [4, 5]
+    },
+    {
+      "name": "Quý Nguyễn",
+      "id": 3
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "Book 1"
+    },
+    {
+      "id": 2,
+      "title": "Book 2"
+    },
+    {
+      "id": 3,
+      "title": "Book 3"
+    },
+    {
+      "id": 4,
+      "title": "Book 4"
+    },
+    {
+      "id": 5,
+      "title": "Book 5"
+    }
+  ]
+}
