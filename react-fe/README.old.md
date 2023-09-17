@@ -11,8 +11,9 @@
 - [QBLA](#Quý Bảo Loan Am)
   - [Table of contents](#table-of-contents)
   - [Getting started](#getting-started)
-    - [Installation](#installation)
-    - [My Team - Quy Nguyen Team](#myteam)
+    - [Installation](#json-server)
+    - [Json server](#installation)
+    - [My Team - Quy Nguyen Team](#my-team)
 
 ---
 
@@ -102,9 +103,19 @@ For more configuration options and details, see the [configuration docs](https:/
    npm i
    ```
 
-### My-Team
+### Json server
 
-4. My Team
+4. Json server
+
+```bash
+npm install -g json-server
+
+json-server --watch db.json
+```
+
+### My team
+
+5. My Team
 
 <p align="center"></p>
  <img src="https://github.com/quynguyen20-07/Images/blob/main/373408021_266314379665464_286649943086962708_n.jpg?raw=true" height="300"  width="" alt="Team logo" /> 
