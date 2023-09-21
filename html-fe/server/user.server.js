@@ -1,6 +1,7 @@
 const userForm = document.querySelector("#userForm");
 const userNameInput = document.querySelector("#userName");
 const userTableBody = document.querySelector("#userTable tbody");
+const userOne = document.querySelector("#userOne");
 
 function fetchUsers() {
   fetch("http://localhost:3000/users")
@@ -15,6 +16,8 @@ function fetchUsers() {
           <td>
             <button onclick="editUser(${user.id}, '${user.name}')">Edit</button>
             <button onclick="deleteUser(${user.id})">Delete</button>
+            <a href="UserDetail.html?id=${user.id}">View</a>
+            </td>
           </td>
         `;
         userTableBody.appendChild(row);
@@ -56,12 +59,32 @@ function editUser(id, name) {
   document.querySelector("#userId").value = id;
   userNameInput.value = name;
 }
+
 function deleteUser(id) {
   fetch(`http://localhost:3000/users/${id}`, {
     method: "DELETE",
   }).then(() => fetchUsers());
 }
 
+function fetchUser() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const userId = urlParams.get("id");
+
+  if (userId) {
+    fetch(`http://localhost:3000/users/${userId}`)
+      .then((response) => response.json())
+      .then((user) => {
+        const div = document.createElement("div");
+        div.innerHTML = `
+          <p>ID: ${user.id}</p>
+          <p>Name: ${user.name}</p>
+        `;
+        userOne.appendChild(div);
+      });
+  }
+}
+
+fetchUser();
 fetchUsers();
 
 userForm.addEventListener("submit", saveUser);

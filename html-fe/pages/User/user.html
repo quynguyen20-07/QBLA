@@ -14,29 +14,35 @@
         padding: 8px;
         border-bottom: 1px solid #ddd;
       }
+      .hello {
+        text-align: left;
+        padding: 8px;
+      }
     </style>
   </head>
   <body>
-    <h1>Users Management</h1>
+    <div class="hello">
+      <h1>Users Management</h1>
 
-    <form id="userForm">
-      <input type="hidden" id="userId" />
-      <label for="userName">Name:</label>
-      <input type="text" id="userName" required />
-      <button type="submit">Save User</button>
-    </form>
+      <form id="userForm">
+        <input type="hidden" id="userId" />
+        <label for="userName">Name:</label>
+        <input type="text" id="userName" required />
+        <button type="submit">Save User</button>
+      </form>
 
-    <table id="userTable">
-      <thead>
-        <tr>
-          <th>ID</th>
-          <th>Name</th>
-          <!-- <th>Books</th> -->
-          <th>Actions</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    </table>
+      <table id="userTable">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <!-- <th>Books</th> -->
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
     <script src="../../server/user.server.js"></script>
   </body>
 </html>
